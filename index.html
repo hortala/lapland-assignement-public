@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Grayscale - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendorMe/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendorMe/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Welcome to Lapland</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger ActiveMe" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="Lapland.html">Lapland</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="Auroras.html">Auroras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="Guides.html">Guides</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Picture Caroussel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/Accueil/caroussel/1.jpg">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/Accueil/caroussel/2.jpg">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/Accueil/caroussel/3.jpg">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/Accueil/caroussel/4.jpg">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span> Previous
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span> Next
+        </a>
+    </div>
+
+    <!--Presentation-->
+    <div class="presentationHome parallax">
+        <div class="main_boxes">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="containerImageHome">
+                            <img class="img-responsive imageHome" src="img/Accueil/Activity/Aurore.jpg" onclick="clickImageHome(1)" />
+                            <div class="overlay">
+                                <div class="text">Northern lights</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="containerImageHome">
+                            <img class="img-responsive imageHome" src="img/Accueil/Activity/hautelGlace.jpg" onclick="clickImageHome(2)" />
+                            <div class="overlay">
+                                <div class="text">Ice hotel</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="containerImageHome">
+                            <img class="img-responsive imageHome" src="img/Accueil/Activity/MotoNeige.jpg" onclick="clickImageHome(3)" />
+                            <div class="overlay">
+                                <div class="text">Snow motorbike</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="containerImageHome">
+                            <img class="img-responsive imageHome" src="img/Accueil/Activity/ChienTraineau.jpg" onclick="clickImageHome(4)" />
+                            <div class="overlay">
+                                <div class="text">Sled dog</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="containerImageHome">
+                            <img class="img-responsive imageHome" src="img/Accueil/Activity/Raquette.png" onclick="clickImageHome(5)" />
+                            <div class="overlay">
+                                <div class="text">Ramble</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendorMe/jquery/jquery.min.js"></script>
+        <script src="vendorMe/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="vendorMe/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Custom scripts for this template -->
+        <script src="js/grayscale.min.js"></script>
+        <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
