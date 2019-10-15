@@ -1,781 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="author" content="Alexis GERONA, LAPIN AMK">
-        <meta name="description" content="Bootstrap final project">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>Bootstrap final project GERONA</title>
+<head>
 
-        <!-- Bootstrap core CSS -->
-        <link href="vendorBIS/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        <!-- Custom fonts for this template -->
-        <link href="vendorBIS/fontawesome-free/css/all.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <title>Grayscale - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendorMe/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendorMe/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
 
-        <script src="lib/jquery-3.1.0.js"></script>
-        <script src="lib/jquery.imgexplode.min.js"></script>
+</head>
 
-        <!-- Custom styles for this template -->
-        <link href="css/grayscale.min.css" rel="stylesheet">
-    </head>
+<body id="page-top">
 
-    <body id="page-top">
-        <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">COVER PAGE</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#Home">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#Lapland">LAPLAND</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#Auroras">AURORAS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#Guides">GUIDES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#Contact">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Welcome to Lapland</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger ActiveMe" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="Lapland.html">Lapland</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="Auroras.html">Auroras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="Guides.html">Guides</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
 
-        <!-- Header -->
-        <header class="masthead">
-            <div class="container d-flex h-100 align-items-center">
-                <div class="mx-auto text-center title">
-                    <h1>LAPLAND</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">We will make you want to visit finland.</h2>
-                    <a href="#Home" class="btn btn-primary js-scroll-trigger">Get Started</a>
-                </div>
+    <!--Picture Caroussel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/Accueil/caroussel/1.jpg">
             </div>
-        </header>
-
-        <!-- Home Section -->
-        <section id="Home" class="Home-section text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2 class="text-black mb-4" style="color:#0066ff">General informations</h2>
-                        <p class="text-black-50">
-                            Finland is a North European nation bordering Sweden, Norway and Russia. Its capital, Helsinki, occupies a peninsula and the surrounding islands of the Baltic Sea. It is home to the 18th-century Suomenlinna Maritime Fortress, the trendy Design District and various museums. The province of Arctic Lapland, a vast wilderness of national parks and ski resorts, is the perfect place to see the northern lights.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-8 mx-auto align-items-center">
-                    <img src="img/5W5L3JBHJUI6RIRH7UVQBFDGXQ.jpg" class="img-fluid" id="target" style="margin-bottom:10%">
-                </div>
-
-                <script>
-                    var i = 1;
-                    var changeSrc = true;
-                    var $target = $("#target");
-
-                    function pictureChange(){
-                        if (changeSrc == false) {
-                            $target.attr('src', 'img/20180324_BLP521.jpg');
-                            changeSrc = true;
-                        } else {
-                            $target.attr('src', 'img/5W5L3JBHJUI6RIRH7UVQBFDGXQ.jpg');
-                            changeSrc = false;
-                        }
-                        setTimeout(explode,1000);
-                    }
-
-                    function explode() {
-                        $target.explodeRestore();
-                        setTimeout(function () {
-                            $target.explode({
-                                maxWidth: 15,
-                                minWidth: 5,
-                                radius: 50,
-                                release: true,
-                                recycle: true,
-                                explodeTime: 220,
-                                canvas: true,
-                                maxAngle: 360,
-                                gravity: 0,
-                                groundDistance: 150,
-                            });
-                        }, 300);
-                    }
-
-                    const sleep = (milliseconds) => {
-                        return new Promise(resolve => setTimeout(resolve, milliseconds))
-                    }
-
-                    var interval = setInterval(function() {
-                        sleep(300).then(() => {
-                            pictureChange();
-                        })
-
-                    }, 11000);
-
-                    function execute() {
-                        if (i == 3) {
-                            clearInterval(interval);
-                        }
-                        i++;
-                    }
-
-                    $(document).ready(function() {
-                        pictureChange();
-                    });
-
-                    $(window).resize(function(){
-                        pictureChange();
-                    });
-                </script>
-
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2 class="text-black mb-4" style="color:#0066ff">Capital city</h2>
-                        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                            <p class="text-black-50 mb-0 text-justify">
-                                In southern Finland, the capital Helsinki occupies a peninsula in the Gulf of Finland.<br/>
-                            </p>
-                            <div class="col-xl-6 col-lg-7">
-                                <p class="text-black-50 mb-0 text-justify" style="margin-right:5%">
-                                    Its central avenue, Mannerheimintie, includes various institutions including the national museum that traces the history of the country, from the Stone Age to the present day. It also has the imposing Parliament and the Museum of Contemporary Art Kiasma. All of red brick, richly decorated, Ouspenski Cathedral overlooks the harbor.<br/><br/>
-                                </p>
-                            </div>
-                            <div class="col-xl-6">
-                                <img class="myImg" src="img/Helsinki.jpg" alt="Helsinki" width="100%" height="auto">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 mx-auto">
-                        <h2 class="text-black mb-4" style="color:#0066ff">National parks</h2>
-                        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                            <div class="col-xl-6" style="margin-top: 3%">
-                                <img class="myImg" src="img/Finland-Oulanka-National-Park.jpg" alt="National parks" width="100%" height="auto">
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="featured-text text-center text-lg-left">
-                                    <p class="text-black-50 mb-0 text-justify" style="margin-left:5%;margin-top: 5%">
-                                        There are no less than 39 national parks in Finland, and a fortieth park to be inaugurated in 2017 in honor of the centenary of our country's independence. These areas of unspoiled nature are spread over our entire territory, between the archipelago, lakes and woodlands, peat bogs or the area of the mountains of Lapland. Each of the Finnish national parks illustrates the natural features of the corresponding region, such as rapids, collapse ditches and sandy isthmuses.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                            <h2 class="text-black mb-4" style="color:#0066ff">Seasons</h2>
-                            <p class="text-black-50" style="margin-bottom: 3%">
-                                Finland is rich in all its exciting contrasts, between its four well-differentiated seasons, the midnight sun and winter darkness, the city and countryside, or the east and west of the country.
-                            </p>
-                            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                                <div class="col-lg-6" style="margin-bottom: 2%">
-                                    <img class="myImg" src="img/finlande-paijanne.1491525.jpg" alt="Spring" width="100%" height="auto">
-                                </div>
-                                <div class="col-lg-6" style="margin-bottom: 2%">
-                                    <img class="myImg" src="img/images.jpg" alt="Summer" width="93%" height="auto">
-                                </div>
-                                <div class="col-lg-6" style="margin-bottom: 2%">
-                                    <img class="myImg" src="img/Header_Linnunlaulu_ruska_autumn-400x300.jpg" alt="Autumn" width="100%" height="85%">
-                                </div>
-                                <div class="col-lg-6" style="margin-bottom: 2%">
-                                    <img class="myImg" src="img/Header_kaamos_jordan_yllas_sun-400x300.jpg" alt="Winter" width="93%" height="85%">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/Accueil/caroussel/2.jpg">
             </div>
-        </section>
-
-        <!-- Lapland Section -->
-        <section id="Lapland" class="laplandTitel text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">REASONS TO VISIT LAPLAND</h2>
-                    </div>
-                </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/Accueil/caroussel/3.jpg">
             </div>
-        </section>
-        <section id="LaplandBis" class="Lapland-section text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">Santa</h2>
-                        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                            <p class="text-white-50 mb-0 text-justify">
-                                Santa is also known and loved around the world. But did you know that he was born in Finland and that you can meet him in person? Children of all ages are welcome to visit Santa Claus' office in Rovaniemi every day of the year and to be received in private audience for an exchange of a few words with the friendly old man in red while immersing himself in a unique enchanted atmosphere. As everyone knows, Santa's mission is to bring happiness every year to the four corners of the planet with the help of his faithful fur companions reindeer.
-                            </p>
-                            <div class="row">
-                                <div class="col-xl-6">
-                                    <img class="myImg" src="img/maxresdefault.jpg" alt="Santa" width="100%" height="auto">
-                                </div>
-                                <div class="col-xl-6">
-                                    <img class="myImg" src="img/maxresdefaultBIS.jpg" alt="Santa" width="100%" height="auto">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">Le rituel du sauna</h2>
-                        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                            <div class="featured-text text-center text-lg-left">
-                                <p class="text-white-50 mb-0 text-justify" style="margin-top: 5%">
-                                    If you want to understand Finland and its people, getting started in the sauna is a good starting point. The sauna is so integral to Finnish culture that it ranks at the top of our national symbols.<br/><br/>
-
-                                    With its seawater pool, the Allas Sea Pool sports and relaxation complex is based on a new concept inspired by the spa tradition that has marked the history of the Baltic coast. You will be able to discover new sauna experiences all year round both in front of the sea and in the middle of a relaxed urban environment.<br/><br/>
-
-                                    The Löyly Design Sauna, which is located not far from the city center at the southern end of the Helsinki peninsula, was recently inaugurated. This contemporary seaside resort also features a restaurant offering dishes that are representative of the finest Finnish cuisine, while the hotel's wooden building and its modern design are well worth the visit.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">Silence and relaxation</h2>
-                        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                            <div class="featured-text text-center text-lg-left">
-                                <p class="text-white-50 mb-0 text-justify" style="margin-top: 5%">
-                                    In the hustle and bustle of today's life, what is most valuable is what is the rarest, in this case the vast spaces nothing for oneself, peace and serenity , the feeling of having time. Have all the room you need to breathe, all the time you need to dream. These precious treasures await you in Finland, where the lakes are numerous and the inhabitants much less.<br/><br/>
-
-                                    A handful of pristine nature, a pinch of Finnish sauna, a spoonful of traditional health and relaxation treatments from home, a good portion of wild ingredients and some moderate physical activities in addition, this is the exclusive recipe that we propose for you. to assure you an absolutely total relaxation.<br/><br/>
-                                </p>
-                                
-                                <iframe src="https://www.youtube.com/embed/-H1ihNcd3dE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" height="350px" width="100%" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                            <h2 class="text-white mb-4">Picture</h2>
-                            <div class="row">
-                                <div class="col-sm">
-                                    <img class="myImg" src="img/6.5518_4897-400x300.jpg" alt="Snow" width="100%" height="100%">
-                                </div>
-                                <div class="col-sm">
-                                    <img class="myImg" src="img/25987228946_8ab774d389_z.jpg" alt="Amazing views" width="100%" height="100%">
-                                </div>
-
-                                <div class="col-sm">
-                                    <img class="myImg" src="img/Lapland-sunset.jpg" alt="Lapland sunset" width="100%" height="auto">
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-12">
-                                    <img class="myImg" src="img/Lapland-forest.jpg" alt="Lapland forest" width="100%" height="100%">
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-sm">
-                                    <img class="myImg" src="img/Lapland-lake-summer.jpg" alt="Lapland lake summer" width="100%" height="100%">
-                                </div>
-                                <div class="col-sm">
-                                    <img class="myImg" src="img/tampere-Lapland-city.jpg" alt="Lapland city" width="100%" height="100%">
-                                </div>
-                                <div class="col-sm">
-                                    <img class="myImg" src="img/lake .jpg" alt="Lake" width="100%" height="100%">
-                                </div>
-                                <div class="col-sm">
-                                    <img class="myImg" src="img/Forest-Lapland.jpg" alt="Forest Lapland" width="100%" height="100%">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/Accueil/caroussel/4.jpg">
             </div>
-        </section>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span> Previous
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span> Next
+        </a>
+    </div>
 
-        <!-- Auroras Section -->
-        <section id="Auroras" class="aurorasTitel text-center">
-            <div class="container">
+    <!--Presentation-->
+    <div class="presentationHome parallax">
+        <div class="main_boxes">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">Auroras</h2>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="AurorasBis" class="Auroras-section bg-light">
-            <div class="container">
-
-                <!-- Featured Project Row -->
-                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                    <div class="col-xl-6 col-lg-7">
-                        <img class="img-fluid mb-3 mb-lg-0 myImg" src="img/aurora-boreal.jpg" alt="Auroras" alt="">
-                    </div>
-                    <div class="col-xl-6 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Auroras</h4>
-                            <p class="text-black-50 mb-0">
-                                The magic of the aurora borealis show is for many visitors one of the strongest moments of their existence. These celestial phenomena are observed in Finnish Lapland roughly 200 nights a year, or about one night out of two provided the sky is clear. To really make the most of these luminous spurts, it is recommended to wait until it is dark and to choose an observation site far from any source of light pollution, for example streetlights and neon lights in the city.<br/><br/>
-
-                                This year, you will be able to further enhance your Northern Lights experience with the opening of various accommodation sites in Northern Finland, designed for enhanced observation of the northern sky and the spectacular light events it hosts. the desired effect is that the observer has the impression of floating in the atmosphere. Discover the TreeHouse Hotel in Rovaniemi, the Aurora Dome in Muonio and the Glass Villas in Kemi.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-6 mx-auto">
-                        <div class="align-items-center mb-lg-5">
-                            <div class="row justify-content-center">
-                                <div class="col-4">
-                                    <img src="img/rota1_7.jpg" id="grid7" class="img-fluid mb-3 mb-lg-0 myImg element" alt="Auroras 7">
-                                </div>
-                            </div>
-                            <div class="row justify-content-around">
-                                <div class="col-4">
-                                    <img src="img/rota1_6.jpg" id="grid6" class="img-fluid mb-3 mb-lg-0 myImg element" alt="Auroras 6">
-                                </div>
-                                <div class="col-4">
-                                    <img src="img/rota1_0.jpg" id="grid0" class="img-fluid mb-3 mb-lg-0 myImg element" width="100%" height="100%" alt="Auroras 0">
-                                </div>
-                            </div>
-                            <div class="row justify-content-between">
-                                <div class="col-4">
-                                    <img src="img/rota1_5.jpg" id="grid5" class="img-fluid mb-3 mb-lg-0 myImg element" alt="Auroras 5">
-                                </div>
-                                <div class="col-4">
-                                    <img src="img/rota1_1.jpg" id="grid1" class="img-fluid mb-3 mb-lg-0 myImg element" alt="Auroras 1">
-                                </div>
-                            </div>
-                            <div class="row justify-content-around">
-                                <div class="col-4">
-                                    <img src="img/rota1_4.jpg" id="grid4" class="img-fluid mb-3 mb-lg-0 myImg element" alt="Auroras 4">
-                                </div>
-                                <div class="col-4">
-                                    <img src="img/rota1_2.jpg" id="grid2" class="img-fluid mb-3 mb-lg-0 myImg element" width="100%" height="100%" alt="Auroras 2">
-                                </div>
-                            </div>
-                            <div class="row justify-content-center">
-                                <div class="col-4">
-                                    <img src="img/rota1_3.jpg" id="grid3" class="img-fluid mb-3 mb-lg-0 myImg element" alt="Auroras 3">
-                                </div>
+                    <div class="col-md-4">
+                        <div class="containerImageHome">
+                            <img class="img-responsive imageHome" src="img/Accueil/Activity/Aurore.jpg" onclick="clickImageHome(1)" />
+                            <div class="overlay">
+                                <div class="text">Northern lights</div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Guides Section -->
-        <section id="Guides" class="guidesTitel text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">Guides</h2>
+                    <div class="col-md-4">
+                        <div class="containerImageHome">
+                            <img class="img-responsive imageHome" src="img/Accueil/Activity/hautelGlace.jpg" onclick="clickImageHome(2)" />
+                            <div class="overlay">
+                                <div class="text">Ice hotel</div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <section id="GuidesBis" class="Guides-section bg-black">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <h2 class="text-white mb-5">Click on the cards for more information</h2>
+                    <div class="col-md-4">
+                        <div class="containerImageHome">
+                            <img class="img-responsive imageHome" src="img/Accueil/Activity/MotoNeige.jpg" onclick="clickImageHome(3)" />
+                            <div class="overlay">
+                                <div class="text">Snow motorbike</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3 mb-3 mb-md-0">
-                        <div class="flip">
-                            <div class="card py-4">
-                                <div class="text-center">
-                                    <div class="face front">
-                                        <p class="text-center policeBumberGuide" id="guideNumberPos0" style="margin-bottom: 0"></p>
-                                        <img src="" id="guidePicture0" class="img-fluid mb-3 mb-lg-0 rounded-circle" alt="">
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideFirstName0"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideLastName0"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideNumber0"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0">Aurora borealis</h4>
-                                    </div> 
-                                    <div class="face back">
-                                        <h4>Email :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="email0"></p><br/>
-                                        <h4>City :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="city0"></p><br/>
-                                        <h4>Country :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="country0"></p><br/>
-                                        <h4>Speak :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center">English, Finnish, Chinese</p><br/>
-                                    </div>
-                                </div>
+                    <div class="col-md-6">
+                        <div class="containerImageHome">
+                            <img class="img-responsive imageHome" src="img/Accueil/Activity/ChienTraineau.jpg" onclick="clickImageHome(4)" />
+                            <div class="overlay">
+                                <div class="text">Sled dog</div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-md-3 mb-3 mb-md-0">
-                        <div class="flip">
-                            <div class="card py-4">
-                                <div class="text-center">
-                                    <div class="face front">
-                                        <p class="text-center policeBumberGuide" id="guideNumberPos1" style="margin-bottom: 0"></p>
-                                        <img src="" id="guidePicture1" class="img-fluid mb-3 mb-lg-0 rounded-circle" alt="">
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideFirstName1"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideLastName1"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideNumber1"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0">Culture</h4>
-                                    </div> 
-                                    <div class="face back">
-                                        <h4>Email :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="email1"></p><br/>
-                                        <h4>City :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="city1"></p><br/>
-                                        <h4>Country :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="country1"></p><br/>
-                                        <h4>Speak :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center">English, Finnish, Spanish</p><br/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 mb-3 mb-md-0">
-                        <div class="flip">
-                            <div class="card py-4">
-                                <div class="text-center">
-                                    <div class="face front">
-                                        <p class="text-center policeBumberGuide" id="guideNumberPos2" style="margin-bottom: 0"></p>
-                                        <img src="" id="guidePicture2" class="img-fluid mb-3 mb-lg-0 rounded-circle" alt="">
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideFirstName2"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideLastName2"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideNumber2"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0">Winter sport</h4>
-                                    </div> 
-                                    <div class="face back">
-                                        <h4>Email :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="email2"></p><br/>
-                                        <h4>City :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="city2"></p><br/>
-                                        <h4>Country :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="country2"></p><br/>
-                                        <h4>Speak :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center">English, Finnish</p><br/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 mb-3 mb-md-0">
-                        <div class="flip">
-                            <div class="card py-4">
-                                <div class="text-center">
-                                    <div class="face front">
-                                        <p class="text-center policeBumberGuide" id="guideNumberPos3" style="margin-bottom: 0"></p>
-                                        <img src="" id="guidePicture3" class="img-fluid mb-3 mb-lg-0 rounded-circle" alt="">
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideFirstName3"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideLastName3"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideNumber3"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0">Relaxation</h4>
-                                    </div> 
-                                    <div class="face back">
-                                        <h4>Email :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="email3"></p><br/>
-                                        <h4>City :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="city3"></p><br/>
-                                        <h4>Country :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="country3"></p><br/>
-                                        <h4>Speak :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center">French, English, Finnish</p><br/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row" style="margin-top: 3%">
-                    <div class="col-md-3 mb-3 mb-md-0">
-                        <div class="flip">
-                            <div class="card py-4">
-                                <div class="text-center">
-                                    <div class="face front">
-                                        <p class="text-center policeBumberGuide" id="guideNumberPos4" style="margin-bottom: 0"></p>
-                                        <img src="" id="guidePicture4" class="img-fluid mb-3 mb-lg-0 rounded-circle" alt="">
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideFirstName4"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideLastName4"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideNumber4"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0">Aurora borealis</h4>
-                                    </div> 
-                                    <div class="face back">
-                                        <h4>Email :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="email4"></p><br/>
-                                        <h4>City :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="city4"></p><br/>
-                                        <h4>Country :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="country4"></p><br/>
-                                        <h4>Speak :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center">English, Finnish, Chinese</p><br/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 mb-3 mb-md-0">
-                        <div class="flip">
-                            <div class="card py-4">
-                                <div class="text-center">
-                                    <div class="face front">
-                                        <p class="text-center policeBumberGuide" id="guideNumberPos5" style="margin-bottom: 0"></p>
-                                        <img src="" id="guidePicture5" class="img-fluid mb-3 mb-lg-0 rounded-circle" alt="">
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideFirstName5"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideLastName5"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideNumber5"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0">Culture</h4>
-                                    </div> 
-                                    <div class="face back">
-                                        <h4>Email :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="email5"></p><br/>
-                                        <h4>City :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="city5"></p><br/>
-                                        <h4>Country :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="country5"></p><br/>
-                                        <h4>Speak :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center">English, Finnish, Spanish</p><br/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 mb-3 mb-md-0">
-                        <div class="flip">
-                            <div class="card py-4">
-                                <div class="text-center">
-                                    <div class="face front">
-                                        <p class="text-center policeBumberGuide" id="guideNumberPos6" style="margin-bottom: 0"></p>
-                                        <img src="" id="guidePicture6" class="img-fluid mb-3 mb-lg-0 rounded-circle" alt="">
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideFirstName6"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideLastName6"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideNumber6"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0">Winter sport</h4>
-                                    </div> 
-                                    <div class="face back">
-                                        <h4>Email :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="email6"></p><br/>
-                                        <h4>City :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="city6"></p><br/>
-                                        <h4>Country :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="country6"></p><br/>
-                                        <h4>Speak :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center">English, Finnish</p><br/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 mb-3 mb-md-0">
-                        <div class="flip">
-                            <div class="card py-4">
-                                <div class="text-center">
-                                    <div class="face front">
-                                        <p class="text-center policeBumberGuide" id="guideNumberPos7" style="margin-bottom: 0"></p>
-                                        <img src="" id="guidePicture7" class="img-fluid mb-3 mb-lg-0 rounded-circle" alt="">
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideFirstName7"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideLastName7"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0"  id="guideNumber7"></h4>
-                                        <hr class="my-4">
-                                        <h4 class="text-uppercase m-0">Relaxation</h4>
-                                    </div> 
-                                    <div class="face back">
-                                        <h4>Email :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="email7"></p><br/>
-                                        <h4>City :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="city7"></p><br/>
-                                        <h4>Country :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center" id="country7"></p><br/>
-                                        <h4>Speak :</h4>
-                                        <hr class="my-2">
-                                        <p class="text-black-50 mb-0 text-center">French, English, Finnish</p><br/>
-                                    </div>
-                                </div>
+                    <div class="col-md-6">
+                        <div class="containerImageHome">
+                            <img class="img-responsive imageHome" src="img/Accueil/Activity/Raquette.png" onclick="clickImageHome(5)" />
+                            <div class="overlay">
+                                <div class="text">Ramble</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="Contact" class="contactTitel text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">Contact</h2>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="contact-section bg-white">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 mb-3 mb-md-0">
-
-                        <div class="flip">
-                            <div class="card py-4 h-100" style="background-color: black">
-                                <div class="card-body text-center">
-                                    <div class="face front">
-                                        <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                        <h4 class="text-uppercase text-white m-0">Address</h4>
-                                        <hr class="my-4">
-                                        <div class="small text-white-50">
-                                            Lapland University of Applied Sciences<br/>
-                                            Jokiväylä 11 C<br/>
-                                            96300 Rovaniemi<br/>
-                                            Finland
-                                        </div><br/>
-                                        <a class="rotate-btn text-white-50" data-card="card-1"><i class="fas fa-undo"></i> Click here to rotate back</a>
-                                    </div> 
-                                    <div class="face back">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6529.0940956500035!2d24.133784834837744!3d65.85107786368363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x45d547775acfd3e5%3A0xcc881a0192e7f192!2sLapland%20University%20of%20Applied%20Sciences%20Minerva!5e0!3m2!1sfr!2sfi!4v1570907190762!5m2!1sfr!2sfi" frameborder="1" style="border:1;" allowfullscreen=""></iframe><br/><br/><br/>
-                                        <a class="rotate-btn text-white-50" data-card="card-1"><i class="fas fa-undo"></i> Click here to rotate back</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100" style="background-color: black">
-                            <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase text-white m-0">Email</h4>
-                                <hr class="my-4">
-                                <div class="small text-white-50">
-                                    <a href="mailto:adressemail@mail.in?Subject=Contact for lapland&Body=what is the reason for your mail?">Kirjaamo@lapinamk.fi</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100" style="background-color: black">
-                            <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase text-white m-0">Phone</h4>
-                                <hr class="my-4">
-                                <div class="small text-white-50">+358 20 798 6000</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="social d-flex justify-content-center">
-                    <a href="https://twitter.com/lapinamk?lang=fr" class="mx-2">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://fi-fi.facebook.com/LapinAMK" class="mx-2">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://github.com/agerona/final-project.git" class="mx-2">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <footer class="bg-black small text-center text-white-50">
-            <div class="container">
-                Copyright &copy; Your Website 2019
-            </div>
-        </footer>
-
-        <!-- Pop up -->
-        <div id="myModal" class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="img01">
-            <div id="caption"></div>
         </div>
 
+
+
         <!-- Bootstrap core JavaScript -->
-        <script src="vendorBIS/jquery/jquery.min.js"></script>
-        <script src="vendorBIS/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="vendorMe/jquery/jquery.min.js"></script>
+        <script src="vendorMe/bootstrap/js/bootstrap.bundle.min.js"></script>
 
         <!-- Plugin JavaScript -->
-        <script src="vendorBIS/jquery-easing/jquery.easing.min.js"></script>
+        <script src="vendorMe/jquery-easing/jquery.easing.min.js"></script>
 
         <!-- Custom scripts for this template -->
         <script src="js/grayscale.min.js"></script>
-    </body>
+        <script src="js/main.js"></script>
+
+
+</body>
+
 </html>
