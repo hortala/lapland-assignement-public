@@ -1,10 +1,9 @@
+/***** Begin Home ******/
+
 .ActiveMe {
     color: rgb(97, 4, 69)!important;
     font-weight: bold!important;
 }
-
-
-/*Home*/
 
 .presentationHome {
     font-family: "pol"!important;
@@ -21,6 +20,45 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+/*Begin caroussel*/
+
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0);
+    filter: alpha(opacity=50);
+    opacity: .5
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden
+}
+
+
+/*End caroussel*/
 
 
 /*Overlay Slide*/
@@ -68,7 +106,10 @@
 /*Overlay slide end*/
 
 
-/*Lapland*/
+/***** End Home ******/
+
+
+/***** Begin Lapland ******/
 
 .BodyLapland {
     background-image: url("../img/FondEcran.jpg")!important;
@@ -114,32 +155,9 @@
     cursor: pointer;
 }
 
-.overlay {
-    position: absolute;
-    bottom: 20%;
-    left: 15%;
-    right: 0;
-    overflow: hidden;
-    width: 70%;
-    height: 0;
-    transition: 1s ease;
-    background-color: rgb(4, 32, 41, 0.5);
-}
-
 .containerImageLapland:hover .overlay {
     bottom: 0;
     height: 40%;
-}
-
-.text {
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
 }
 
 
@@ -158,7 +176,10 @@
 }
 
 
-/*Aurora*/
+/***** End Lapland ******/
+
+
+/***** Begin Aurora ******/
 
 .AuroraBody {
     background-image: url("../img/FondEcran.jpg")!important;
@@ -185,7 +206,10 @@
 }
 
 
-/*Guides*/
+/***** End Aurora ******/
+
+
+/***** Begin Guides ******/
 
 .bodyGuides {
     background-image: url("../img/FondEcran.jpg")!important;
@@ -264,7 +288,10 @@
 }
 
 
-/*Contact*/
+/***** End Guides ******/
+
+
+/***** Begin Contact ******/
 
 .bodyContact {
     background-image: url("../img/FondEcran.jpg")!important;
@@ -285,14 +312,104 @@
     text-align: center;
 }
 
-.test {
+.textContact {
     border: 2px solid white;
     background-color: rgb(0, 0, 0, 0.6);
     color: white!important;
 }
 
 
-/*  */
+/***** End Contact ******/
+
+
+/***** Other *****/
+
+
+/*Begin NavBar*/
+
+#mainNav {
+    min-height: 56px;
+    background-color: black;
+    text-align: center;
+    opacity: 0.9;
+}
+
+#js-scroll-trigger {
+    color: white!important;
+}
+
+#mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: .75rem;
+    color: #64a19d;
+    border: 1px solid #64a19d;
+}
+
+#mainNav .navbar-toggler:focus {
+    outline: 0;
+}
+
+#mainNav .navbar-brand {
+    color: white;
+    font-weight: 700;
+    padding: .9rem 0;
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+    color: fade(white, 80%);
+    outline: 0;
+}
+
+#mainNav .navbar-nav .nav-item:active,
+#mainNav .navbar-nav .nav-item:focus {
+    outline: 0;
+}
+
+@media (min-width:992px) {
+    #mainNav {
+        padding-top: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+        opacity: 0.9;
+        transition: background-color .3s ease-in-out;
+    }
+    #mainNav .navbar-brand {
+        padding: .5rem 0;
+        color: rgba(255, 255, 255, .5);
+    }
+    #mainNav .nav-link {
+        transition: none;
+        padding: 2rem 1.5rem;
+        color: white;
+    }
+    #mainNav .nav-link:hover {
+        color: rgba(243, 4, 4, 0.75);
+    }
+    #mainNav .nav-link:active {
+        color: #fff;
+    }
+    #mainNav.navbar-shrink .nav-link.active {
+        color: #64a19d;
+        outline: 0;
+        border-bottom: .25rem solid #64a19d;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+}
+
+#navbar-collapse {
+    color: red!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+
+/*End NavBar*/
 
 body {
     font-family: Nunito;
@@ -311,10 +428,6 @@ a {
     color: #64a19d!important
 }
 
-footer {
-    padding: 5rem 0.
-}
-
 @font-face {
     font-family: "pol";
     src: url("../police/Sporter.ttf")
@@ -324,48 +437,4 @@ h2,
 h3,
 h4 {
     text-align: center;
-}
-
-.carousel-indicators {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    z-index: 15;
-    width: 60%;
-    padding-left: 0;
-    margin-left: -30%;
-    text-align: center;
-    list-style: none
-}
-
-.carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden
-}
-
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0
-}
-
-.carousel-control {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 15%;
-    font-size: 20px;
-    color: #fff;
-    text-align: center;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
-    background-color: rgba(0, 0, 0, 0);
-    filter: alpha(opacity=50);
-    opacity: .5
 }
